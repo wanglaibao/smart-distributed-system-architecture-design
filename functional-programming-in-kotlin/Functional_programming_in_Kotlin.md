@@ -14,3 +14,35 @@
 * Because the Maybe type is so familiar to functional programmers, let’s define an equivalent of it here just for illustration by using sealed class
 
 * What about pattern matching? This is where the word “sealed” comes in handy; we can do an exhaustive pattern match without an else/otherwise branch:
+
+
+### Immutability
+
+### Recursive functions
+* Functional programmers like to express solutions to problems using recursion. This often needs an optimisation called tail call optimisation to work well. Kotlin supports this in certain circumstances
+
+
+### Lazyness
+```
+    Functional programming occasionally involves building infinite lists of things and operating on them in a lazy and possibly parallel manner.
+
+    Since version 8 Java can do this too, and therefore so can Kotlin.
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
